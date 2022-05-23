@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Styles - MyStyles</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="shortcut icon" href="assets/favicon.svg" type="image/x-icon" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Macondo&family=Roboto+Mono:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="index.html"
+          ><img src="assets/logo.svg" alt="Logo MyStyles" class="logo-img" />
+        </a>
+      </div>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="fonts.html">Fonts</a></li>
+        <li><a href="color_palette.html">Color Palette</a></li>
+        <li><a href="styles.html">Styles</a></li>
+      </ul>
+    </nav>
+    <table class="code-container">
+      <tr>
+        <th>Code</th>
+        <th>Description</th>
+      </tr>
+      <tr>
+        <td class="code">
+          <code>* {<br>
+            margin: 0;<br>
+            padding: 0;<br>
+            box-sizing: border-box;<br>
+                  }
+          </code>
+        </td>
+        <td class="description">This CSS rule, removes the default styles of the website,
+            for example the margin and padding, this with the objetive 
+            that you won't have problems when you're positioning
+            your elements. And also the box-sizing: border-box; makes
+            that the total width and height of each element, is the 
+            product of the sum between padding, border, and the width
+            of the element.
+        </td>
+      </tr>
+      <tr>
+        <td class="code">
+          <code>html {<br>
+            font-size: 62.5%;<br>
+                  }
+          </code>
+        </td>
+        <td class="description">This simple rule, which seems so simple, 
+          is so important, because browsers have the default font-size
+          value of 16px, and when we set it to 62.5% of that value (10px)
+          allows us to have a more precise measurement when using the
+          flexible units (em, rem), defining that 1em equals to 10px.
+        </td>
+      </tr>
+      <tr>
+        <td class="code">
+          <code>div {<br>
+            margin: 0 auto;<br>
+                  }
+          </code>
+        </td>
+        <td class="description">How to center a div? <br> The question
+          that all of us have asked ourselves at some point.
+          So here is the answer. well... there isn't only one way to do
+          this, but I personally think this is the easier one.
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
